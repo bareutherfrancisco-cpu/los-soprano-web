@@ -68,23 +68,15 @@ main [id] { scroll-margin-top: 6.5rem; }
 .scroll-note { position: absolute; z-index: 2; right: 2vw; bottom: 4.5rem; display: flex; align-items: center; gap: .8rem; color: rgb(232 226 214 / 54%); font-family: var(--font-mono); font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; transform: rotate(90deg) translateX(100%); transform-origin: right bottom; }
 .scroll-note::before { width: 38px; height: 1px; content: ''; background: currentcolor; }
 
-.editorial-intro { position: relative; display: grid; min-height: 84vh; padding-block: clamp(7rem, 10vw, 10rem); border-block: 1px solid rgb(232 226 214 / 12%); grid-template-columns: .7fr 1.3fr; align-items: start; gap: 7vw; isolation: isolate; }
-.editorial-intro::before { position: absolute; z-index: -1; top: 0; bottom: 0; left: -4vw; width: min(52vw, 700px); content: ''; background: radial-gradient(ellipse at 30% 40%, rgb(143 29 36 / 18%), transparent 68%); pointer-events: none; }
-.editorial-intro__title { display: grid; align-content: start; gap: 1.8rem; }
-.editorial-intro__title::after { width: 72px; height: 3px; content: ''; background: linear-gradient(90deg, #a7262e 0 55%, #c9a574 55% 100%); }
-.editorial-intro__eyebrow { display: inline-flex; align-items: center; gap: .7rem; color: #d3b185; font-family: var(--font-mono); font-size: .66rem; letter-spacing: .16em; text-transform: uppercase; }
-.editorial-intro__eyebrow::before { width: 7px; height: 7px; content: ''; background: #a7262e; transform: rotate(45deg); }
+.editorial-intro { display: grid; min-height: 84vh; padding-block: clamp(7rem, 10vw, 10rem); border-block: 1px solid rgb(232 226 214 / 12%); grid-template-columns: .7fr 1.3fr; align-items: start; gap: 7vw; }
 .editorial-intro h2, .section-title { margin: 0; font-family: var(--font-display); font-size: clamp(3.7rem, 8vw, 8rem); font-weight: 500; line-height: .9; letter-spacing: -.045em; text-transform: uppercase; }
-.editorial-intro h2 em { color: #d65c63; font-style: normal; }
-.editorial-intro__copy { display: grid; max-width: 870px; gap: 2.7rem; }
+.editorial-intro h2 span { color: #d65c63; }
+.editorial-intro__copy { display: grid; max-width: 870px; gap: 2.4rem; }
 .editorial-intro__lead { margin: 0; font-size: clamp(1.65rem, 3vw, 3.35rem); line-height: 1.16; letter-spacing: -.035em; }
-.editorial-intro__lead em { color: #d3b185; font-family: Georgia, 'Times New Roman', serif; font-size: 1.06em; font-weight: 400; }
 .editorial-intro__lead strong { color: #d65c63; font-weight: 500; }
-.editorial-intro__columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; color: #c8c0b5; line-height: 1.8; }
-.editorial-intro__columns p { margin: 0; padding: 1.15rem 1.35rem; border-left: 2px solid #a7262e; background: linear-gradient(90deg, rgb(143 29 36 / 12%), rgb(232 226 214 / 3%)); }
-.editorial-intro__columns p + p { border-left-color: #c9a574; background: linear-gradient(90deg, rgb(201 165 116 / 11%), rgb(232 226 214 / 3%)); }
-.editorial-intro__columns span { display: block; margin-bottom: .55rem; color: #e2b6a4; font-family: var(--font-mono); font-size: .62rem; font-weight: 500; letter-spacing: .13em; line-height: 1.4; text-transform: uppercase; }
-.editorial-intro__columns p + p span { color: #d3b185; }
+.editorial-intro__body { display: grid; max-width: 720px; padding-top: 1.5rem; border-top: 1px solid rgb(214 92 99 / 65%); gap: 1.25rem; color: #bdc2c0; font-size: 1.06rem; line-height: 1.75; }
+.editorial-intro__body p { margin: 0; }
+.editorial-intro__body strong { color: #e8e2d6; font-weight: 600; }
 .full-bleed-story { position: relative; display: grid; min-height: 88vh; overflow: hidden; align-items: end; }
 .full-bleed-story__media, .full-bleed-story__media img, .full-bleed-story__shade { position: absolute; inset: 0; width: 100%; height: 100%; }
 .full-bleed-story__media img { object-fit: cover; object-position: center 28%; filter: grayscale(.75) contrast(1.08); }
@@ -231,7 +223,7 @@ main [id] { scroll-margin-top: 6.5rem; }
     .hero-home h1, .page-hero h1, .gallery-page h1, .contact-page h1, .video-stage h1 { font-size: clamp(4.5rem, 24vw, 8rem); }
     .scroll-note { display: none; }
     .editorial-intro, .content-section, .episode-section, .season-preview, .prose-grid { padding-block: 6rem; }
-    .editorial-intro__columns, .media-notes, .site-footer { grid-template-columns: 1fr; }
+    .media-notes, .site-footer { grid-template-columns: 1fr; }
     .season-preview__header, .episode-section__header, .content-section__header { margin-bottom: 3rem; align-items: start; flex-direction: column; }
     .season-line, .episode-line { grid-template-columns: 52px 1fr; gap: 1rem; }
     .season-line p, .episode-line p { grid-column: 2; }

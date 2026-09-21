@@ -26,12 +26,15 @@ export default function Home() {
             </section>
 
             <section id="familia-y-negocio" className="page-shell editorial-intro">
-                <h2 data-reveal>Familia<br />y negocio</h2>
+                <div className="editorial-intro__title" data-reveal>
+                    <span className="editorial-intro__eyebrow">01 / Dos mundos</span>
+                    <h2>Familia<br /><em>y negocio</em></h2>
+                </div>
                 <div className="editorial-intro__copy">
-                    <p className="editorial-intro__lead" data-reveal>En Los Soprano, la violencia no vive lejos de la mesa familiar: se sienta a comer, llega tarde y pregunta cómo estuvo el día.</p>
+                    <p className="editorial-intro__lead" data-reveal>En <em>Los Soprano</em>, la violencia no vive lejos de la mesa familiar: <strong>se sienta a comer</strong>, llega tarde y pregunta cómo estuvo el día.</p>
                     <div className="editorial-intro__columns" data-reveal>
-                        <p>David Chase estrenó la serie en HBO en 1999. Su punto de partida parecía una contradicción: un jefe mafioso con ataques de pánico que comienza terapia. Esa tensión terminó siendo el motor de seis temporadas.</p>
-                        <p>La historia mira a Tony como padre, marido, paciente y criminal sin ordenar esas identidades. El resultado no busca justificarlo: expone cómo cada espacio contamina al siguiente.</p>
+                        <p><span>El punto de partida</span>David Chase estrenó la serie en HBO en 1999. Su punto de partida parecía una contradicción: un jefe mafioso con ataques de pánico que comienza terapia. Esa tensión terminó siendo el motor de seis temporadas.</p>
+                        <p><span>La doble vida</span>La historia mira a Tony como padre, marido, paciente y criminal sin ordenar esas identidades. El resultado no busca justificarlo: expone cómo cada espacio contamina al siguiente.</p>
                     </div>
                     <Link className="text-link" href="/la-serie">Leer sobre la serie <ArrowRight size={16} /></Link>
                 </div>

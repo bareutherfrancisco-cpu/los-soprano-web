@@ -30,8 +30,8 @@ export default function Home() {
                 <div className="editorial-intro__copy">
                     <p className="editorial-intro__lead" data-reveal>En Los Soprano, la violencia no vive lejos de la mesa familiar: <strong>se sienta a comer</strong>, llega tarde y pregunta cómo estuvo el día.</p>
                     <div className="editorial-intro__body" data-reveal>
-                        <p><strong>David Chase</strong> estrenó la serie en HBO en 1999. Su punto de partida parecía una contradicción: un jefe mafioso con ataques de pánico que comienza terapia. Esa tensión terminó siendo el motor de seis temporadas.</p>
-                        <p>La historia mira a <strong>Tony</strong> como padre, marido, paciente y criminal sin ordenar esas identidades. El resultado no busca justificarlo: expone cómo cada espacio contamina al siguiente.</p>
+                        <p><strong>David Chase</strong> estrenó la serie en HBO en 1999. Su punto de partida parecía una contradicción: un jefe mafioso con <mark>ataques de pánico</mark> que comienza terapia. Esa tensión terminó siendo el motor de seis temporadas.</p>
+                        <p>La historia mira a <strong>Tony</strong> como <mark>padre</mark>, marido, paciente y <mark>criminal</mark> sin ordenar esas identidades. El resultado no busca justificarlo: expone cómo cada espacio contamina al siguiente.</p>
                     </div>
                     <Link className="text-link" href="/la-serie">Leer sobre la serie <ArrowRight size={16} /></Link>
                 </div>

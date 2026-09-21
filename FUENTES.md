@@ -7,7 +7,7 @@ Este es un proyecto académico no oficial. Las fotografías se descargaron y gua
 - [Logotipo promocional de The Sopranos — Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Sopranos_promotional_logo.svg)
 - [Sitio oficial de The Sopranos — HBO](https://www.hbo.com/the-sopranos)
 - [The Sopranos — información general](https://en.wikipedia.org/wiki/The_Sopranos)
-- [Tráiler oficial publicado por HBO](https://www.youtube.com/watch?v=2X4UhSPA5d4)
+- [Video oficial del 25 aniversario publicado por HBO](https://www.youtube.com/watch?v=eQQGQa3lTGs)
 
 ## Tipografías
 

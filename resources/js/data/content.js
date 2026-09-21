@@ -30,7 +30,7 @@ export const navigation = [
     },
     {
         label: 'Multimedia', href: '/multimedia', children: [
-            { label: 'Tráiler', href: '/multimedia/#trailer' },
+            { label: 'Video', href: '/multimedia/#trailer' },
             { label: 'Claves', href: '/multimedia/#claves' },
             { label: 'Episodios', href: '/multimedia/#episodios' },
         ],

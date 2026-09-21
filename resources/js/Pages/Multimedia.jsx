@@ -9,12 +9,12 @@ export default function Multimedia() {
             <section className="page-shell video-stage">
                 <div className="video-stage__heading">
                     <h1 data-reveal>Multimedia</h1>
-                    <p data-reveal>Un tráiler oficial de HBO y una guía breve de episodios que muestran distintas caras de la serie. El video no se reproduce automáticamente.</p>
+                    <p data-reveal>Un video promocional oficial de HBO y una guía breve de episodios que muestran distintas caras de la serie. El video no se reproduce automáticamente.</p>
                 </div>
                 <div id="trailer" className="video-frame" data-reveal>
                     <iframe
-                        src="https://www.youtube-nocookie.com/embed/2X4UhSPA5d4?rel=0"
-                        title="Tráiler oficial de Los Soprano publicado por HBO"
+                        src="https://www.youtube-nocookie.com/embed/eQQGQa3lTGs?rel=0"
+                        title="Video oficial del 25 aniversario de Los Soprano publicado por HBO"
                         loading="lazy"
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin"

@@ -1,6 +1,6 @@
 # Los Soprano Web
 
-Sitio académico no oficial sobre *Los Soprano*. Presenta una sinopsis, las temporadas, un ensayo sobre su legado, personajes, una galería, un tráiler y un formulario de contacto de demostración.
+Sitio académico no oficial sobre *Los Soprano*. Presenta una sinopsis, las temporadas, un ensayo sobre su legado, personajes, una galería, un video oficial y un formulario de contacto de demostración.
 
 **Sitio publicado:** https://bareutherfrancisco-cpu.github.io/los-soprano-web/
 
@@ -20,7 +20,7 @@ Se desarrolló un sitio temático de varias páginas con navegación principal y
 - **La serie:** sinopsis, temporadas y legado.
 - **Personajes:** relaciones y retratos.
 - **Galería:** elenco, Nueva Jersey y lugares.
-- **Multimedia:** tráiler, claves y episodios.
+- **Multimedia:** video, claves y episodios.
 - **Contacto:** formulario de demostración.
 
 ## Estructura

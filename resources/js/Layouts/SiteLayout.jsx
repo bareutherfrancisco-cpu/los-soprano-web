@@ -156,7 +156,16 @@ export default function SiteLayout({ children }) {
                                         aria-label={`${openDropdown === item.href ? 'Cerrar' : 'Abrir'} submenú de ${item.label}`}
                                         aria-expanded={openDropdown === item.href}
                                         aria-controls={`submenu-${item.href === '/' ? 'inicio' : item.href.slice(1)}`}
-                                        onClick={() => setOpenDropdown((current) => current === item.href ? null : item.href)}
+                                        onClick={(event) => {
+                                            const opensOnHover = event.detail > 0 && window.matchMedia('(min-width: 1025px) and (hover: hover)').matches;
+                                            setOpenDropdown((current) => {
+                                                if (opensOnHover) {
+                                                    return item.href;
+                                                }
+
+                                                return current === item.href ? null : item.href;
+                                            });
+                                        }}
                                         onKeyDown={(event) => {
                                             if (event.key === 'ArrowDown') {
                                                 event.preventDefault();
